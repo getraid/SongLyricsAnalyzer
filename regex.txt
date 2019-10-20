@@ -1,0 +1,6 @@
+\[[^[]]*\] <-- remove all in between []
+
+[^a-zA-Z0-9] <-- remove everything besides A-Z, a-z and 0-9
+
+^(\s*\r\n){2,} <-- remove empty "enter" fields (replace with \r\n)
+
